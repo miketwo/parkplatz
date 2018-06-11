@@ -1,0 +1,4 @@
+requests
+scipy
+tensorflow-gpu
+ipython
