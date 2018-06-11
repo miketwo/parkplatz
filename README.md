@@ -11,3 +11,20 @@ Parking lot imagery database available here: https://web.inf.ufpr.br/vri/databas
 - [Linux installation guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#abstract).
 - [Blog about how to setup GPU](https://hackernoon.com/docker-compose-gpu-tensorflow-%EF%B8%8F-a0e2011d36)
 - [Using GPU from within Docker](https://stackoverflow.com/questions/25185405/using-gpu-from-a-docker-container)
+
+# Development
+
+Put videos in a `parkplatz/videos` directory.
+
+## Non-GPU
+
+Run `dev.sh`
+```
+cd /srv
+./working videos/NAME_OF_VIDEO.mp4
+```
+
+
+## GPU (not yet working)
+
+Run `dev2.sh`
